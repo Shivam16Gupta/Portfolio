@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    width:100vw;
+    background-color: #b2bec3;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    font-size:25px;
+}
+
+.area{
+    position: relative;
+    height:500px;
+    width:400px;
+}
+#input{
+    height:300px;
+    width:400px;
+}
+p{
+    font-size:13px;
+    width:250px;
+    float:left;
+    
+}
+#button{
+    margin-left: 50px;
+    height:50px;
+    width:90px;
+    
+}
