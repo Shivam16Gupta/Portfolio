@@ -14,7 +14,7 @@ body {
 }
 h1 {
   padding-top: 10px;
-  font-size: 10.0em;
+  font-size: 5.0em;
 }
 h2 {
   font-size: 3.0em;
@@ -37,10 +37,10 @@ a:hover {
   border-radius: 50%;
 }
 .banner {
-  background:url(banner.jpg) no-repeat;
+  background:url(banner2.jpg);
   background-size: cover;
-  max-width:100%;
-  height:auto;
+  max-width: width auto;
+  height:500px;
   
 }
 #overlay {
@@ -48,7 +48,7 @@ a:hover {
   height: 1000px;
 }
 .skills {
-  background:url(skill.jpg);
+  background:url(exp2.jpg);
   background-size: cover;
   min-height: 100%;
   padding-bottom: 40px;
@@ -72,7 +72,8 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  top: 250px;
+  top: 40px;
+
 }
 .titles {
   width: 790px;
@@ -321,12 +322,7 @@ footer {
     border-style: solid;
 	  border-color: #084461;
 }
-@media (max-width:798px) and (min-width:300px)   {
-  .avatar {
-      height:100px;
-      width:100px;
-   }
-}
+
 @media (min-width:1400px)   {
   .banner, .skills, .ex-timeline, .portfolios, .contact-section {
     	background-repeat: no-repeat; 
@@ -335,19 +331,21 @@ footer {
    }
 }
 @media (max-width: 800px) and (min-width: 300px) {
+
+  .nav{
+    display:none;
+  }
   img {
-    width: 30vw; 
-    height: 30vh;
+    height:50%;
+      width:50%;
   }
   h1 {
-    font-size: 12vw;
+    font-size: 50px;
   }
   h2 {
     font-size: 8vw;
   }
-  h3 {
-    font-size: 6vw;
-  }
+ 
   p {
     font-size: 6vw;
   }
@@ -362,12 +360,12 @@ footer {
     font-size: 13vw;
   }
   .banner {
-    background-size: 100% 100%;
+    background-size: cover;
     height: 550px;
   }
   .title {
     padding-bottom: 10px;
-    width: 90%;
+    width: 80%;
     top: 100px;
   }
   .border {
@@ -437,4 +435,9 @@ footer {
   .view {
     font-size: 5.5vw;
   }
+}
+@media (max-width: 609px) and (min-width: 200px){
+.avatar{
+  display:none;
+}
 }
